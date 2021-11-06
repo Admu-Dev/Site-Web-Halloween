@@ -178,7 +178,7 @@ align-items: center;
 min-height: 100vh;
 position: relative;
 padding: 0 200px;
-background-image: url(images/home.jpg);
+background-image: url(ressources/images/home.jpg);
 background-size: cover !important;
 background-position: center !important;
 }
@@ -344,7 +344,7 @@ ________________________________________________________________________________
   min-height: 100vh;
   position: relative;
   padding: 0 200px;
-  background: url(images/halloween-fond-ecran-toile-araignee_23-2148635554.webp);
+  background: url(ressources/images/halloween-fond-ecran-toile-araignee_23-2148635554.webp);
   background-size: 55%;
   overflow-x: hidden;
 }
