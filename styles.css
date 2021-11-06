@@ -74,7 +74,7 @@ header .menu ul {
 
 header .menu ul li a{
   color: white;
-  font-size: 17px;
+  font-size: 19px;
   margin: 0 20px;
   border-bottom: 2px solid transparent;
   transition: all 0.8s ease;
@@ -86,7 +86,7 @@ header .menu ul li a i{
 }
 
 header .menu ul li:hover a{
-  border-bottom: 2px solid #87e7e1;
+  border-bottom: 2px solid #e68a00;
 }
 
 header .logo img {
@@ -94,7 +94,7 @@ header .logo img {
 }
 
 header .logo h2 {
-  color: #87e7e1;
+  color: #e68a00;
   font-size: 23px;
   margin-left: 10px;
 }
@@ -185,17 +185,18 @@ background-position: center !important;
 
 .Home .text-box {
   width: 400px;
+  margin-left: 100px;
 }
 
 .Home .text-box h1 {
   color: #ffffff;
-  font-size: clamp(30px, 4vw, 50px);
+  font-size: clamp(30px, 4vw, 55px);
   font-weight: bold;
 }
 
 .Home .text-box p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: clamp(10px, 1.7vw, 20px);
+  font-size: clamp(10px, 1.7vw, 23px);
   margin: 40px 0 60px;
 }
 
@@ -205,7 +206,7 @@ background-position: center !important;
 }
 
 .Home .text-box .buttons .btn {
-  font-size: 16px;
+  font-size: 17px;
   width: 200px;
   text-align: center;
   align-items: center;
@@ -338,7 +339,7 @@ ________________________________________________________________________________
 
 .About {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   position: relative;
@@ -350,7 +351,7 @@ ________________________________________________________________________________
 
 .About .container-about {
   background: #2F3233;
-  width: 100%;
+  width: 70%;
   height: 400px;
   border-radius: 50px;
   display: flex;
@@ -413,7 +414,7 @@ ________________________________________________________________________________
 
 .Contact .container-contact {
   background: #2F3233;
-  width: 100%;
+  width: 70%;
   height: 400px;
   border-radius: 50px;
   display: flex;
@@ -491,8 +492,17 @@ ________________________________________________________________________________
 
 
  @media screen and (max-width: 1080px) {
+
+  header .menu ul li a{
+    font-size: 17px;
+  }
+  
   
   /*________________________ HOME ________________________*/
+
+    .Home .text-box {
+      margin-left: 0px;
+    }
 
     .Home .image-box img{
         width: 450px;
@@ -516,6 +526,7 @@ ________________________________________________________________________________
 
     .About .container-about {
       height: 350px;
+      width: 100%;
     }
 
 
@@ -531,6 +542,7 @@ ________________________________________________________________________________
 
     .Contact .container-contact {
       height: 350px;
+      width: 100%;
     }
 
     
